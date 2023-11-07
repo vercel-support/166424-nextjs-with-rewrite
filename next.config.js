@@ -5,7 +5,7 @@ const nextConfig = {
       {
         source: '/demo-blog',
         destination:
-          'https://166424-gatsbyjs-with-path-prefix.preview.vercel-support.app/demo-blog',
+          'https://166424-gatsbyjs-with-path-prefix.preview.vercel-support.app/demo-blog/',
       },
       {
         source: '/demo-blog/:path*',
