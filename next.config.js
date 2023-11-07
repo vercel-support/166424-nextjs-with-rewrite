@@ -3,12 +3,12 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/dream-blog',
+        source: '/demo-blog',
         destination:
           'https://166424-gatsbyjs-with-path-prefix.preview.vercel-support.app/demo-blog',
       },
       {
-        source: '/dream-blog/:path*',
+        source: '/demo-blog/:path*',
         destination:
           'https://166424-gatsbyjs-with-path-prefix.preview.vercel-support.app/demo-blog/:path*',
       },
